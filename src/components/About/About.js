@@ -1,16 +1,11 @@
 import React from 'react';
 import './About.css'
 import image from '../../../src/images/portfolio-image-removebg.png'
-import bg from '../../../src/images/about-bg-message-logo.png'
 
 
 const About = () => {
-    const appointmentBg = {
-        backgroundImage: `url(${bg})`,
-        backgroundRepeat: 'no-repeat',
-    };
     return (
-        <div style={{ appointmentBg }} className='about-me'>
+        <div className='about-me'>
 
             <div className='row m-auto about-container'>
                 {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100"><path fill="#ffff" fill-opacity="1" d="M0,32L1440,192L1440,0L0,0Z"></path></svg> */}
