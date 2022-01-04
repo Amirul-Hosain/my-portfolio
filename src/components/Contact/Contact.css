@@ -1,0 +1,85 @@
+
+.contact{
+    margin-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+}
+
+.contact-both{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.contact-social{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.contact-form input{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius:2px;
+    border: none;
+}
+.contact-form textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+}
+.submit{
+    width: 130px;
+    font-size: 20px;
+    color:white;
+    background: linear-gradient(to bottom left, #5398ff 50%, #0d6efd 50%);
+    border: none;
+    font-weight: 500;
+    padding: 5px 0px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.fa-phone-alt{
+    font-size: 30px;
+    color: #1e2a3d;
+    width: 55px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 3px;
+}
+.fa-envelope, .fa-facebook-f{
+    font-size: 30px;
+    color: #1e2a3d;
+    width: 55px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    padding-top: 3px;
+    border-radius: 3px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact-social{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        margin: auto;
+    }
+}

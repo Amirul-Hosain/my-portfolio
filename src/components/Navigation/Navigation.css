@@ -1,0 +1,31 @@
+.nav-container{
+    /* width: 100%; */
+    background-color: white;
+    height: 80px;
+    transition: .5s;
+}
+.nav-container2{
+    /* width: 100%; */
+    transition: .5s;
+}
+.nav-container{
+    background-color: white;
+    height: 80px;
+    transition: .5s;
+}
+.nav-link{
+    padding: 5px 0px 5px 0px;
+    margin: 10px;
+}
+.navbar-link{
+    color: orange;
+}
+
+@media only screen and (max-width: 950px) {
+    .navbar-nav{
+        background-color: rgb(14, 14, 43);
+        border-radius: 10px;
+        margin-top: 12px;
+        padding: 0% 40%;
+    }
+  }
